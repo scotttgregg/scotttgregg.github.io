@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML yay</title>
+    <meta name="viewport" content="width=device-width" , initial-scale="1.0">
+    <link rel="stylesheet" type="text/css" href="style">
+</head>
+<body>
+<form method="post" action="wwww.example.com/login">
+    <label>
+        username <input type="text" name="username">
+    </label> <!-- label should be around all input fields in a form -->
+    password<input type="password" name="identifier">
+    email<input type="email" name="blah">
+
+    <textarea name="comment"></textarea>
+     <p>Do you like the color blue?</p>
+    <input type="checkbox" name="like-the-color-blue"> Yes I do!
+    <input type="checkbox" name="unlike_blue"> Hell no!
+
+    <p>What other colors do you like?</p>
+    <input type="checkbox" name="other-colors" value="red"> red
+    <input type="checkbox" name="other-colors" value="green"> green
+    <input type="checkbox" name="other-colors" value="brown"> brown
+
+    <p>What's your favorite animal?</p>
+    <input type="radio" name="fav-ani" value="dog"> dog
+    <input type="radio" name="fav-ani" value="cat"> cat
+    <input type="radio" name="fav-ani" value="fish" checked> fish
+    <p>Where you from, brah?</p>
+
+    <select name="state-in-pnw" multiple>
+        <option value="ID">Idaho</option>
+        <option value="ID" selected>Oregon</option>
+    </select>
+    <input type="file" name="profile-pic" multiple>
+    <button>Submit</button>
+</form>
+</body>
+</html>
