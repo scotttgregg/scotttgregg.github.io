@@ -61,6 +61,9 @@ body {
     align-items: center;
     justify-content: center; }
 
+.portfolio_but {
+  position: relative; }
+
 .image {
   opacity: 1;
   transition: .5s ease;
@@ -76,16 +79,16 @@ body {
   -ms-transform: translate(-50%, -50%);
   text-align: center; }
 
-.container:hover .image {
+.portfolio_but:hover .image {
   opacity: 0.3; }
 
-.container:hover .middle {
+.portfolio_but:hover .middle {
   opacity: 1; }
 
 .text {
-  background-color: #4CAF50;
-  color: white;
-  font-size: 16px;
+  color: #100007;
+  font-size: 26px;
+  font-weight: bold;
   padding: 16px 32px; }
 
 footer div.icon_wrapper {

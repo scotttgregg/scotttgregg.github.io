@@ -78,10 +78,10 @@ body {
   }
 }
 
-//.container {
-//    position: relative;
-//    width: 50%;
-//}
+.portfolio_but {
+    position: relative;
+    //width: 50%;
+}
 
 .image {
   opacity: 1;
@@ -103,18 +103,18 @@ body {
   text-align: center;
 }
 
-.container:hover .image {
+.portfolio_but:hover .image {
   opacity: 0.3;
 }
 
-.container:hover .middle {
+.portfolio_but:hover .middle {
   opacity: 1;
 }
 
 .text {
-  background-color: #4CAF50;
-  color: white;
-  font-size: 16px;
+  color: $dark-black;
+  font-size: 26px;
+  font-weight: bold;
   padding: 16px 32px;
 }
 

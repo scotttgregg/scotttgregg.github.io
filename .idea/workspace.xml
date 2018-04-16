@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0347cba2-f0db-4ead-883e-eab3e786f178" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/portfolio/assets/style.css" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Zen_garden_css/style.css" afterPath="$PROJECT_DIR$/Zen_garden_css/style.css" />
-      <change beforePath="$PROJECT_DIR$/Zen_garden_css/zen_garden_css_lab.html" afterPath="$PROJECT_DIR$/Zen_garden_css/zen_garden_css_lab.html" />
-      <change beforePath="$PROJECT_DIR$/form_example.html" afterPath="$PROJECT_DIR$/form_example.html" />
-      <change beforePath="$PROJECT_DIR$/portfolio/canonbeach.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/portfolio/index.html" afterPath="$PROJECT_DIR$/portfolio/index.html" />
-      <change beforePath="$PROJECT_DIR$/portfolio/projects.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/portfolio/style.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/portfolio/assets/style.css" afterPath="$PROJECT_DIR$/portfolio/assets/style.css" />
+      <change beforePath="$PROJECT_DIR$/portfolio/assets/style.css.map" afterPath="$PROJECT_DIR$/portfolio/assets/style.css.map" />
+      <change beforePath="$PROJECT_DIR$/portfolio/assets/style.scss" afterPath="$PROJECT_DIR$/portfolio/assets/style.scss" />
+      <change beforePath="$PROJECT_DIR$/portfolio/portfolio.html" afterPath="$PROJECT_DIR$/portfolio/portfolio.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -47,10 +41,10 @@
       <file leaf-file-name="portfolio.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/portfolio/portfolio.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="451">
-              <caret line="36" column="8" lean-forward="false" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
+            <state relative-caret-position="149">
+              <caret line="24" column="80" lean-forward="false" selection-start-line="24" selection-start-column="80" selection-end-line="24" selection-end-column="80" />
               <folding>
-                <element signature="e#1478#1484#0" expanded="true" />
+                <element signature="e#1906#1912#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -59,8 +53,8 @@
       <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/portfolio/assets/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="85" column="1" lean-forward="true" selection-start-line="85" selection-start-column="1" selection-end-line="85" selection-end-column="1" />
+            <state relative-caret-position="454">
+              <caret line="115" column="14" lean-forward="false" selection-start-line="115" selection-start-column="14" selection-end-line="115" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -576,18 +570,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/portfolio/assets/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="85" column="1" lean-forward="true" selection-start-line="85" selection-start-column="1" selection-end-line="85" selection-end-column="1" />
+        <state relative-caret-position="454">
+          <caret line="115" column="14" lean-forward="false" selection-start-line="115" selection-start-column="14" selection-end-line="115" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/portfolio/portfolio.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="36" column="8" lean-forward="false" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
+        <state relative-caret-position="149">
+          <caret line="24" column="80" lean-forward="false" selection-start-line="24" selection-start-column="80" selection-end-line="24" selection-end-column="80" />
           <folding>
-            <element signature="e#1478#1484#0" expanded="true" />
+            <element signature="e#1906#1912#0" expanded="true" />
           </folding>
         </state>
       </provider>
