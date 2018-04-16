@@ -1,0 +1,91 @@
+header {
+  background-color: green; }
+
+header h1 {
+  color: blue; }
+
+footer h1 {
+  color: green; }
+
+footer {
+  background: brown; }
+
+header {
+  background-color: green; }
+  header h1 {
+    color: blue; }
+
+footer {
+  background-color: brown;
+  border-radius: 50%;
+  border-color: blue;
+  border: solid 5px blue;
+  font-family: "Apple Braille";
+  font-size: 2em;
+  font-weight: bold; }
+  footer:hover {
+    background-color: deeppink;
+    border-radius: 50px;
+    border-color: black;
+    border: solid 5px black; }
+  footer h1 {
+    color: green; }
+
+h1, h2 {
+  background: blue;
+  color: darkgrey;
+  border-radius: 20px; }
+
+h2 {
+  box-shadow: deeppink 2px 2px 2px;
+  position: fixed;
+  left: 5.2083333333%;
+  background: rgba(0, 128, 0, 0.5);
+  color: #004080; }
+  h2:hover {
+    color: #004d00; }
+
+ul:nth-child(10) {
+  color: #00e600; }
+
+ul:nth-child(9) {
+  color: #00dc00; }
+
+ul:nth-child(8) {
+  color: #00d200; }
+
+ul:nth-child(7) {
+  color: #00c700; }
+
+ul:nth-child(6) {
+  color: #00bd00; }
+
+ul:nth-child(5) {
+  color: #00b300; }
+
+ul:nth-child(4) {
+  color: #00a900; }
+
+ul:nth-child(3) {
+  color: #009f00; }
+
+ul:nth-child(2) {
+  color: #009400; }
+
+ul:nth-child(1) {
+  color: #008a00; }
+
+.el-1:before {
+  content: "hi"; }
+
+.el-2:before {
+  content: "howdy"; }
+
+.el-3:before {
+  content: "hello"; }
+
+h2 {
+  border: solid;
+  color: #333; }
+
+/*# sourceMappingURL=style.css.map */

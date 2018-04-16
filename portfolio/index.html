@@ -4,45 +4,53 @@
     <meta charset="UTF-8">
     <title>Scottie G</title>
     <meta name="viewport" content="width=device-width" , initial-scale="1.0">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="assets/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
 </head>
 <body>
 <header>
     <nav class="navbar">
-        <ul>
+        <ul class="wrapper">
             <li>
-                <a href="index.html">Home</a>
+                <a class="home" href="index.html">Home</a>
             </li>
-            <li><a href="../projects.html">Projects</a></li>
+            <li>
+                <a class="portfolio" href="portfolio.html">Portfolio</a>
+            </li>
         </ul>
     </nav>
 </header>
-<img src="canonbeach.jpg" alt="Canon Beach">
 
-<h1>About me</h1>
 
-<main>
-    <p>
-        I discovered coding while taking a WordPress class at the local community college and instantly loved it.
-        After a year of being in their web development program, I decided I wanted to dive into coding in a way
-        that only a coding boot camp could provide.  That's how I ended up at PDX Code Guild!  I can't wait for what's
-        next!
-    </p>
-    <section>
-        <h2>Hobbies</h2>
-        <ol>
-            <li><a href="http://www.deschutesangler.com/" target="_blank">Fly Fishing</a></li>
-            <li><a href="https://planetgranite.com/" target="_blank">Climbing</a></li>
-            <li><a href="https://www.nationalgeographic.com/photography/photo-tips/digital-photography-tips/" target="_blank">Photography</a>
-            </li>
-            <li><a href="https://www.w3schools.com/" target="_blank">Coding</a></li>
-        </ol>
-    </section>
+<main class="wrapper">
+
+    <div class="home_img">
+        <img src="assets/images/placeholder.jpg" alt="place holder img">
+    </div>
+
+
+    <div class="">
+        <h1>Hey, I'm Scottie Schultz - a code newbie.</h1>
+        <p class="about_me">
+            I discovered coding while taking a WordPress class at <a href="www.pcc.edu">PCC</a> and instantly loved it.
+            After a year of being in their web development program, I decided I wanted to dive into coding in a way
+            that only a coding boot camp could provide. That's how I ended up at <a href="www.pdxcodeguild.com">PDX Code
+            Guild!</a>
+        </p>
+    </div>
+
+
 </main>
 
 
-
-<footer>Website by: Scott Gregg&copy;</footer>
+<footer>
+    <div class="icon_wrapper">
+        <a class=""><img src="assets/images/linkedin-3000959.svg" alt="LinkIn logo link"></a>
+        <a class=""><img src="assets/images/instagram-3000957.svg" alt="Instagram logo link"></a>
+        <a class=""><img src="assets/images/facebook-3000954.svg" alt="Facebook logo link"></a>
+    </div>
+    <p>Website by: Yours truly &copy;</p>
+</footer>
 
 </body>
 

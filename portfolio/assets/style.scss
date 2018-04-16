@@ -1,0 +1,152 @@
+@import "vars";
+
+nav {
+  border: 1px solid #ccc;
+  border-width: 3px 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav li {
+  display: inline;
+}
+
+nav a {
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+  color: $black;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  color: $green;
+}
+
+.home, .portfolio {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+body {
+  font-family: "American Typewriter";
+  color: $dark-black;
+  padding: 3%;
+}
+
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+  h1 {
+    font-size: 1.5em;
+    color: $brown;
+    padding: 10%;
+  }
+  p {
+    padding: 5%;
+    line-height: 2em;
+  }
+  a {
+    text-decoration: none;
+    color: $brown;
+    &:hover {
+      color: $green;
+    }
+  }
+  img {
+    padding-top: 3%;
+    max-width: 100%;
+  }
+}
+
+.portfolio_but {
+  padding: 2%;
+  img {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    border: 3px solid $grey;
+    border-radius: 30px;
+    margin: 2%;
+  }
+  a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+//.container {
+//    position: relative;
+//    width: 50%;
+//}
+
+.image {
+  opacity: 1;
+  //display: block;
+  //width: 100%;
+  //height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+footer {
+  div.icon_wrapper {
+    display: flex;
+  }
+  a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  img {
+    max-width: 50%;
+  }
+
+  p {
+    text-align: center;
+    padding: 2em;
+  }
+}
+
+//@media screen and (min-width: 760px) {
+//  .col-6 {
+//    width: 50%;
+//    float: left;
+//  }
+//
+//  .col-4 {
+//    width: 33%;
+//  }
+//
+//}
+

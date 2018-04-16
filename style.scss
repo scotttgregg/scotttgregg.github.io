@@ -1,0 +1,107 @@
+@import "vars.scss";
+
+@mixin border($radius, $color, $size) {
+  border-radius: $radius;
+  border-color: $color;
+  border: solid $size $color;
+}
+
+
+header {
+  background-color: $main-color;
+}
+
+header h1 {
+  color: blue;
+}
+
+footer h1 {
+  color: green;
+}
+
+footer {
+  background: brown;
+}
+
+header {
+  background-color: $main-color;
+  h1 {
+    color: blue;
+  }
+}
+
+footer {
+  background-color: brown;
+  @include border(50%, blue, 5px);
+  font: {
+    family: "Apple Braille";
+    size: 2em;
+    weight: bold;
+  }
+  &:hover {
+    background-color: deeppink;
+    @include border(50px, black, 5px);
+  }
+  h1 {
+    color: green;
+  }
+}
+
+
+%header-styles {
+  background: blue;
+  color: darkgrey;
+  border-radius: 20px;
+}
+
+h1 {
+  @extend %header-styles;
+}
+
+h2 {
+  //@extend h1;
+  @extend %header-styles;
+  box-shadow: deeppink 2px 2px 2px;
+  position: fixed;
+  left: 50px / 960px * 100%;
+  background: transparentize($main-color, .5);
+  color: mix($main-color, $second-color);
+  &:hover {
+   // color: lighten($main-color, 50%);
+    color: darken($main-color, 10%);
+  }
+}
+
+//@mixin my-func(){
+@while $my-num > 0 {
+  ul:nth-child(#{$my-num}) {
+    color: lighten($main-color, $my-num * 2);
+  }
+  $my-num: $my-num - 1;
+  }
+//}
+
+@mixin iffy($bool) {
+  @if $bool {
+    border: solid;
+  }
+}
+
+@each $word in $my-list {
+  $i: index($my-list, $word);
+  .el-#{$i}:before {
+    content: $word;
+  }
+}
+
+h2 {
+  @include iffy(true);
+  color: map-get($map, "1");
+}
+
+
+
+
+
+
+
